@@ -1,0 +1,10 @@
+- CPU
+- Big or little endian operation
+- Floating point support
+- Application Binary Interface ( ABI ) : 
+	- The calling convention used for passing parameters between function calls.
+	- Some types 
+		- Extended Application Binary Interface (EABI)  used by arm and have two categeories  :
+			- Normal EABI -> uses integer registers 
+			- EABIHF (EABI Hard Float)-> uses floating point registers 
+		- Old Application Binary Interface (OABI) called like this because of using the last one instead

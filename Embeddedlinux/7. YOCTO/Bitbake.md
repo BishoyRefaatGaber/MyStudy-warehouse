@@ -1,0 +1,1 @@
+bitbake rpi-test-image

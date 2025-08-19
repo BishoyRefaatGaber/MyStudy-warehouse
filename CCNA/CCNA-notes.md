@@ -1,0 +1,71 @@
+
+- IPv6 Neighbor Discovery = ARP IPv4
+- IPv6 Neighbor Discovery uses ICMPv6 neighbor solicitation and neighbor advertisement messages
+- DTP -> Dynamic Trunking Protocol
+	- dynamic auto
+	- dynamic desirable
+	- trunk
+	- access
+- Inter-VLAN Operation
+	- Legacy Inter-VLAN routing --> need 1 router inf for each vlan in a single switch 
+	- Router-on-a-Stick --> need 1 router inf for each switch
+	- Layer 3 switch using switched virtual interfaces (SVIs)
+- STP --> Spanning Tree Protocol
+	- switches use Bridge Protocol Data Units (BPDUs) to share information about themselves and their connections
+	- Elect the root bridge.
+	- Elect the root ports.
+	- Elect designated ports.
+	- Elect alternate (blocked) ports.
+- EtherChannel
+	-  PAgP --> Port Aggregation Protocol   cisco properity
+		- desirable -> establish connection
+		- auto -> respond to connection
+		- desirable -- desirable  --> work
+		- desirable -- auto  --> work
+		- auto -- auto  --> doesn't work
+	- LACP --> Link Aggregation Control Protocol
+		- active -> establish connection
+		- passive -> respond to connection
+		- active -- active  --> work
+		- active -- passive  --> work
+		- passive -- passive  --> doesn't work
+- FHRP --> first hop redundancy protocol --> L7 protocol with  port 1985
+	- fault tolerance protocols
+		- HSRP --> host standby routing protocol  **cisco**
+			- v1 -> support
+		- VRRP --> virtual routed redundancy protocol
+	- load balance protocols
+		- GLBP --> global lb protocol   **cisco**
+- OSPF
+	- messages
+		- DD -> Database description
+		- LSR -> Link-state request  
+		- LSU -> Link-state update
+		- LSACK -> Link-state acknowledgement
+	- Databases
+		- Adjacency (Neighbor Table)
+		- Link-state (Topology Table)
+		- Forwarding (Routing Table)
+	- Hello message is on 224.0.0.5
+	- AD -> Adminstrative Distance
+
+
+
+### routing fip (forward information base), rt
+- fip -> rt 
+	- AD
+	- metric
+- forwarding
+	- Longest match prefix
+- static AD = 1, 
+- OSPF AD = 110, metric = ref-num* 10^6/BW, equal lb, hello ip 224.0.0.5, 
+	- states
+		- Down state
+		- Init state -------------> hello sent
+		- Two-way state -------> hello replied
+		- ExStart state ---------> election of dr, bdr, others
+		- Exchange state -------> exchange lsa
+		- Loading state ---------> building rt
+		- Full state --------------> rt built
+- RiP AD = 120, metric = hop number, equal lb
+- EIGRP AD = 90, unequal lb

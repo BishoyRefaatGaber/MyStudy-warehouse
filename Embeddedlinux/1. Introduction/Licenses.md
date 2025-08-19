@@ -1,0 +1,4 @@
+- GPL ( General Public License )
+- LGPL ( GNU Lesser General Public License )
+- BSD
+- MIT

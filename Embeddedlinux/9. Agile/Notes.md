@@ -1,0 +1,8 @@
+- Project Constrains
+	- Quality
+	- Cost 
+	- Time
+- Agile is ...
+	- Iterative and Incremental
+	- Collaborative
+	- Adaptive

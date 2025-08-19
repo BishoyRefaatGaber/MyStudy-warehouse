@@ -1,0 +1,3 @@
+- Typing ***help*** prints out all the commands that have been configured in this version of U-Boot.
+- typing ***help  <command />*** prints out more information about a particular command.
+- 

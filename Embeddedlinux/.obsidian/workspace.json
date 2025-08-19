@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "6a346862d0b1693b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fe46e7bcc857059",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "818e527943f821a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. Design pattern/creational/FactoryPrototype.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2d554986eb66ccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 . Kalman Filter/Prerequests.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b55020ce7f442112",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b9fb647ce221627",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a361844a2e3f7ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "d0fb5a6372998ee2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#define",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d530a8dfc253662e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "right": {
+    "id": "5775f6f7b626fd1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "28d218109de50be2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aff366904bfac62e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "8. Design pattern/creational/FactoryPrototype.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c3788173abdaaf93",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "8. Design pattern/creational/FactoryPrototype.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28f7e762e9ad3fde",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "08011af5c1c66573",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "8. Design pattern/creational/FactoryPrototype.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8a361844a2e3f7ac",
+  "lastOpenFiles": [
+    "8. Design pattern/creational/Factory (copy).md",
+    "8. Design pattern/creational/Singleton.md",
+    "8. Design pattern/creational/Bridge.md",
+    "8. Design pattern/creational/FluintBuilder.md",
+    "8. Design pattern/creational/Builder.md",
+    "8. Design pattern/creational/InnerFactory .md",
+    "Socket/Socket.md",
+    "OS/Process synchronization/Producer-Consumer Problem.md",
+    "OS/Process synchronization/Hardware Synchronization.md",
+    "OS/Memory Management/Logical address VS Physical address.md",
+    "OS/Memory Management/Contiguous Allocation.md",
+    "OS/Memory Management/Segmentation with Paging.md",
+    "OS/Memory Management/Segmentation.md",
+    "OS/Memory Management/Shared code.PNG",
+    "OS/Memory Management/address translation scheme.PNG",
+    "OS/Memory Management/Paging.md",
+    "OS/Memory Management/Fragmentation.md",
+    "OS/Memory Management/Dynamic Storage-Allocation Problem.md",
+    "OS/Memory Management/Relocation and limit REGs.PNG",
+    "OS/Memory Management/Multi allocation.PNG",
+    "OS/Memory Management/MMU.PNG",
+    "OS/Memory Management/Swapping.PNG",
+    "OS/Introduction/Computing Environment.md",
+    "OS/Introduction/computer System Organization.md",
+    "OS/Introduction/Computer System Operations.md",
+    "OS/Introduction/Computer System Components.md",
+    "OS/Introduction/Computer System Architecture.md",
+    "11 . Kalman Filter/Prerequests.md",
+    "7. YOCTO/Updating Software in the Field.md",
+    "2. Toolchain/GNU prefix of toolchain.md",
+    "2. Toolchain/CPU architectures.md",
+    "2. Toolchain/Dependances.md",
+    "Doxygen",
+    "8. Design pattern/Untitled Diagram.drawio.png",
+    "Socket",
+    "4. Linux Kernel/Types of kernels/Screenshot from 2023-12-01 00-53-21.png",
+    "4. Linux Kernel/Types of kernels/Mono vs Micro.canvas",
+    "12 . Device Driver",
+    "Screenshot from 2024-03-15 12-27-10.png",
+    "Screenshot from 2024-03-15 12-26-34.png",
+    "3. Bootloader/The boot sequence/Phase 1/Phase 1 - ROM code.canvas",
+    "11 . Kalman Filter",
+    "10 . Linux administration",
+    "8. Design pattern/Observer",
+    "8. Design pattern/AbstractFactory/main",
+    "8. Design pattern/creational",
+    "8. Design pattern/structural",
+    "8. Design pattern/DynamicDecorator.cpp",
+    "Linux Kernel/Mono vs Micro.canvas",
+    "Bootloader/Introducing device trees/Untitled.canvas",
+    "3. Bootloader/The boot sequence/Phase 3/Phase 3 - TPL.canvas",
+    "3. Bootloader/The boot sequence/Phase 2/Phase 2 - Secondary program loader.canvas",
+    "YOCTO/Untitled.canvas",
+    "Introduction/Untitled.canvas"
+  ]
+}

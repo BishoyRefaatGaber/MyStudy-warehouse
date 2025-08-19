@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "94df37697d0674a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "112d7fa2e83b728e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d0db91fd877a94f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Vsphere/6. Managing VMs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Managing VMs"
+            }
+          },
+          {
+            "id": "22c86ea6aec70586",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "DevOps/AWS/AWS.canvas",
+                "viewState": {
+                  "x": -864.5,
+                  "y": -2882.336042728424,
+                  "zoom": -4
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AWS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53ba545701ea022d",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf4ebde285d253d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fab7af18532df42",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2456ac1f903d8cb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vsphere/Terminology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Terminology"
+            }
+          },
+          {
+            "id": "4440c2e4bdb109d9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "66ad141bdd082063",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 389.5
+  },
+  "right": {
+    "id": "1384998b5aa03889",
+    "type": "split",
+    "children": [
+      {
+        "id": "baf9140bd3a62d29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e65d9cafae168823",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AWS/Cloud Practitioner/AWS Design Principals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AWS Design Principals"
+            }
+          },
+          {
+            "id": "87ad5228bbcd354f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AWS/Cloud Practitioner/AWS Design Principals.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AWS Design Principals"
+            }
+          },
+          {
+            "id": "2c80c0c5dffe5c8e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4ad0b272f983ee5f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AWS/Cloud Practitioner/AWS Design Principals.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of AWS Design Principals"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1d0db91fd877a94f",
+  "lastOpenFiles": [
+    "MyStudy-warehouse",
+    "DevOps/Vsphere/4. Storage.md",
+    "DevOps/AWS/AWS.canvas",
+    "DevOps/Vsphere/3. Netoworking.md",
+    "DevOps/Vsphere/2. Installation.md",
+    "DevOps/Vsphere/1. Terminology.md",
+    "DevOps/Kubernates/CKA.canvas",
+    "DevOps/argoCD/Notes.md",
+    "DevOps/Ansible/Basics.md",
+    "Database/MongoDB.md",
+    "DevOps/Apache/NOTES.md",
+    "DevOps/AWS/1. EC2.canvas",
+    "DevOps/AWS/Amazon-Web-Services-AWS-Logo.png",
+    "DevOps/AWS/Screenshot from 2025-03-11 17-45-10.png",
+    "DevOps/AWS/CLF-02/What is cloud computing ?.md",
+    "DevOps/AWS/CLF-02/IAM (Identity and Access Management).md",
+    "DevOps/AWS/CLF-02/EBS (Elastic Block Storage).md",
+    "DevOps/AWS/CLF-02/AWS Design Principals.md",
+    "DevOps/AWS/SAA-C03/Untitled 1.canvas",
+    "DevOps/AWS/SAA-C03/Untitled.canvas",
+    "DevOps/AWS/Untitled.canvas",
+    "DevOps/AWS/URL.png",
+    "DevOps/Vsphere/6. Managing VMs.md",
+    "DevOps/Vsphere/7. vSphere Clusters.md",
+    "DevOps/Vsphere/5. Deploying VMs.md",
+    "DevOps/Vsphere/vsphere.canvas",
+    "DevOps/Vsphere/Roles and Permissions.md",
+    "CCNA/Configurations.md",
+    "DevOps/Vsphere/z0.png",
+    "DevOps/Vsphere/z00.png",
+    "Veeam/veeam.canvas",
+    "Veeam/Terminology.md",
+    "CCNA/CCNA-notes.md",
+    "Veeam",
+    "DevOps/Jenkins/Groovy.md",
+    "DevOps/Jenkins/Jenkins.canvas",
+    "DevOps/GitHub-Actions/Exampro Notes.md",
+    "DevOps/GitHub-Actions/Enterprise GitHub Actions.md",
+    "DevOps/AZ104/NOTES.canvas",
+    "DevOps/AWS/CLF-02/EC2 (Elastic Compute Cloud).md",
+    "DevOps/GitHub-Actions/Notes.md",
+    "DevOps/Kubernates/5. Volumes/3. Persistent Volumes.md",
+    "Database",
+    "DevOps/argoCD",
+    "DevOps/GitHub-Actions",
+    "Pasted image 20250714121027.png",
+    "DevOps/gitCanvasObsidian.png",
+    "Web Development",
+    "python",
+    "DSA",
+    "DevOps/Apache",
+    "DevOps/AZ104",
+    "DevOps/Vsphere/z.png",
+    "MCSA",
+    "DevOps/Vsphere/z02.png",
+    "DevOps/Vsphere/z01.png"
+  ]
+}

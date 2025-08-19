@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"4b37049fa3211a8a","x":-374,"y":-9,"width":124,"height":50,"type":"text","text":"Jenkins"},
+		{"id":"d318ad2a40066cfd","x":-125,"y":-30,"width":1185,"height":89,"type":"text","text":"self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software."},
+		{"id":"823eff50ea73fbe7","x":-134,"y":-569,"width":198,"height":50,"type":"text","text":"Freestyle project"},
+		{"id":"71c68f8e2602d32c","x":-134,"y":-494,"width":125,"height":50,"type":"text","text":"Pipeline"},
+		{"id":"5a7847d9c7a01c6a","x":-125,"y":-419,"width":233,"height":50,"type":"text","text":"Multibranch Pipeline"},
+		{"id":"1f1d8d571c02a631","x":-324,"y":-494,"width":107,"height":50,"type":"text","text":"Items"},
+		{"id":"960195dbab0eab63","x":-125,"y":-333,"width":117,"height":50,"type":"text","text":"Folder"}
+	],
+	"edges":[
+		{"id":"1d4a8e0cbbce04ea","fromNode":"1f1d8d571c02a631","fromSide":"right","toNode":"823eff50ea73fbe7","toSide":"left"},
+		{"id":"9f092484c11b360f","fromNode":"1f1d8d571c02a631","fromSide":"right","toNode":"71c68f8e2602d32c","toSide":"left"},
+		{"id":"8623576bc216a35c","fromNode":"1f1d8d571c02a631","fromSide":"right","toNode":"5a7847d9c7a01c6a","toSide":"left"},
+		{"id":"e2e5f12cbbd3fafb","fromNode":"1f1d8d571c02a631","fromSide":"right","toNode":"960195dbab0eab63","toSide":"left"}
+	]
+}

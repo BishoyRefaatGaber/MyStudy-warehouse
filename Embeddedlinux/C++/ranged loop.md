@@ -1,0 +1,5 @@
+
+```
+for (int num : <container>)
+
+```

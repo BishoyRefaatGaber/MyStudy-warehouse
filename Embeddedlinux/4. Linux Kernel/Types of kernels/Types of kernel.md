@@ -1,0 +1,3 @@
+
+- Micro Kernel
+- Monolithic Kernel
