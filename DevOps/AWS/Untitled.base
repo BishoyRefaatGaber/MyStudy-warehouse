@@ -1,0 +1,12 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - and:
+            - file.folder == "MyStudy-warehouse/DevOps/AWS"
+            - file.name != "*.base"
+    order:
+      - file.name

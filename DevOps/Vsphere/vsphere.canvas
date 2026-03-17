@@ -2,16 +2,16 @@
 	"nodes":[
 		{"id":"4d030b1d4cc4b09a","type":"text","text":"Terminology","x":-390,"y":-580,"width":180,"height":50},
 		{"id":"57a482b3c9909fc5","type":"text","text":"VSphere","x":-928,"y":-149,"width":140,"height":60},
-		{"id":"d16f660426f685bc","type":"file","file":"DevOps/Vsphere/1. Terminology.md","x":37,"y":-860,"width":400,"height":400},
+		{"id":"d16f660426f685bc","type":"file","file":"MyStudy-warehouse/DevOps/Vsphere/1. Terminology.md","x":37,"y":-860,"width":400,"height":400},
 		{"id":"bd6e49036c142a9c","type":"text","text":"Installation","x":-370,"y":-199,"width":160,"height":50},
-		{"id":"49f77ddefe3f1b5c","type":"file","file":"DevOps/Vsphere/2. Installation.md","x":37,"y":-319,"width":400,"height":400},
-		{"id":"5719b343a17037b4","type":"file","file":"DevOps/Vsphere/Roles and Permissions.md","x":37,"y":219,"width":400,"height":400},
+		{"id":"49f77ddefe3f1b5c","type":"file","file":"MyStudy-warehouse/DevOps/Vsphere/2. Installation.md","x":37,"y":-319,"width":400,"height":400},
+		{"id":"5719b343a17037b4","type":"file","file":"MyStudy-warehouse/DevOps/Vsphere/Roles and Permissions.md","x":37,"y":219,"width":400,"height":400},
 		{"id":"4ca4d939c6a15ef2","type":"text","text":"Roles and Permissions","x":-425,"y":239,"width":250,"height":60},
 		{"id":"c2532a26cb558ea2","type":"text","text":"Networking","x":-1518,"y":-580,"width":165,"height":50},
-		{"id":"14d9db8850d9136d","type":"file","file":"DevOps/Vsphere/3. Netoworking.md","x":-2155,"y":-860,"width":400,"height":400},
+		{"id":"14d9db8850d9136d","type":"file","file":"MyStudy-warehouse/DevOps/Vsphere/3. Netoworking.md","x":-2155,"y":-860,"width":400,"height":400},
 		{"id":"87bba13cd10ea2e3","type":"text","text":"Storage","x":-1458,"y":-199,"width":125,"height":55},
 		{"id":"ae9e32d7e456f4d4","type":"text","text":"deployment","x":-1500,"y":239,"width":167,"height":50},
-		{"id":"211b0e3cf0546ae5","type":"file","file":"DevOps/Vsphere/4. Storage.md","x":-2155,"y":-399,"width":400,"height":480}
+		{"id":"211b0e3cf0546ae5","type":"file","file":"MyStudy-warehouse/DevOps/Vsphere/4. Storage.md","x":-2155,"y":-399,"width":400,"height":480}
 	],
 	"edges":[
 		{"id":"6f6ed7c6f75700b8","fromNode":"4d030b1d4cc4b09a","fromSide":"right","toNode":"d16f660426f685bc","toSide":"left"},

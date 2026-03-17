@@ -271,9 +271,6 @@ between VLANs 10 and 20.
 ## HSRP
 
 
-- standby \<group number> \<virtual ip address>
-- standby \<group number> priority \<0-255>
-- standby \<group number> preempt
 
 
 

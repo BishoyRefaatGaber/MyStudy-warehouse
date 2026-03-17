@@ -25,6 +25,8 @@
 
 # 🌳 Forest & Domain Functional Levels
 
+-  Function level: Version of windows server
+
 | Level                       | Purpose                                                 |
 | --------------------------- | ------------------------------------------------------- |
 | **Forest Functional Level** | Minimum supported Windows Server version in the forest. |
@@ -76,19 +78,34 @@
 
 # 🧠 FSMO Roles (Flexible Single Master Operations)
 
-Command: `netdom /query fsmo`
+Command: `netdom /query fsmo`  -> get the fsmo rules
+- Functions of the Domain Controller
+- May be moved from controller to another
+### Forest-Wide (1 per forest)  
 
-### Forest-Wide (1 per forest)
+- **Schema Master** – Manages AD schema (classes and attributes).  
+	- displayed in mmc console but first you need to register the scheme
+	- to register the scheme write `regsvr32 schmngmt`  in powershell
+- **Domain Naming Master** – Controls domain additions/deletions, can add application partition in the NTDS.   displayed in domain and trust console 
 
-- **Schema Master** – Manages AD schema.
-- **Domain Naming Master** – Controls domain additions/deletions.
+> One DC on the forest that has these rules
+### Domain-Wide (1 per domain) 
+- Displayed on users and computers console
 
-### Domain-Wide (1 per domain)
+- **RID Master** – Creates objects in the domain and allocate SID for these objects.
+- **PDC Emulator** – Handles time sync, password changes, GPO priority, Authentication.
+- **Infrastructure Master** – Object updates (name, users in a group,.. etc).
 
-- **RID Master** – Allocates RID pools for security principals.
-- **PDC Emulator** – Handles time sync, password changes, GPO priority.
-- **Infrastructure Master** – Updates cross-domain object references.
+> One DC on the domain that has these rules
 
+
+> The most important rules are RID and PDC emulator
+
+> All rules can be on one controller or distributes to different controllers also can be moved from controller to another
+
+> In case of maintenance  roles can be moved from one DC to another 
+
+> If the controller is down and you need to move the rule use sees
 ---
 
 # 📡 DHCP (Dynamic Host Configuration Protocol)
@@ -146,16 +163,18 @@ Command: `netdom /query fsmo`
 
 ### Types:
 
-- **Security Groups** – Used for access control, permissions, policy rights, mail lists
-- **Distribution Groups** – Used only for mail distribution
+- **Security Groups** – Used for access control, permissions, user rights, mail lists
+- **Distribution Groups** – Used only for mail list.
+
+> mail list if i want to send mail for many users at a time.
 
 ### Scopes:
 
-|Scope|Resource Reach|Membership Source|
-|---|---|---|
-|**Domain Local**|Local domain only|Local domain, trusted domains|
-|**Global**|Anywhere in the forest|Same domain only|
-|**Universal**|Across forest & trusted forests|Any domain|
+| Scope            | Resource Reach                  | Membership Source             |
+| ---------------- | ------------------------------- | ----------------------------- |
+| **Domain Local** | Local domain only               | Local domain, trusted domains |
+| **Global**       | Anywhere in the forest          | Same domain only              |
+| **Universal**    | Across forest & trusted forests | Any domain                    |
 
 ---
 
@@ -199,7 +218,11 @@ Command: `netdom /query fsmo`
 | -------------- | ------------ | ------------------------------------ |
 | **Intra-site** | Same site    | ~15 seconds                          |
 | **Inter-site** | Across sites | 180 minutes (default), based on cost |
-
+### Components replicated
+- Domain partition
+- Scheme partition
+- Configuration partition
+- Application partition
 ### Components:
 
 - **Connection Object** – Logical link between DCs
