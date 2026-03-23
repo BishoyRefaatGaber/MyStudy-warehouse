@@ -220,5 +220,141 @@ def vview(request, id):
         6. add +static(settings.MEDIA_URL, documents_root = settings.MEDIA_ROOT) after the urlpatterns variable
         7. in the for that may be created in step 10 to show the image write EX: <img src="{{x.image.url}}" alt="">
         8. the media directory will be automatically created when we add a record to the model 
+        9. `manage.py showmigrations` 
+           
 
 ##### Object Relation Mapper (ORM)
+
+```python
+
+# manage.py shell
+
+from posts.models import post
+
+# Firts way to create a record
+post1 = post(title="first",content="content")
+post1.save()         
+
+
+# Second way to create a record
+#model.model manager.query method
+# model manager is the interface between django and database (converts code to queries)
+post.objects.create(title="first",content="content")
+
+#get all objects in the db
+#returns a lookinglike list called query set
+data = post.objects.all()
+
+#access elements in query sets
+data[0].title
+
+# get data
+post.objects.get(id=2) # get one item, returns an object
+post.objects.filter(id=2) # get one or more objects, returns a query set 
+post.objects.exclude(id=2) # exclude items with id = 2 from output
+
+
+# some data manipulations
+data = post.objects.all()
+data.order_by('id')
+data.order_by('-id')
+data.order_by('id').reverse()
+data.values()  # show data as json format
+data.count()  # show the objects count
+data.contains(title) # returns a boolean 
+data.first() # returns the first element
+data.last()  # returns the last element
+
+
+# applying &, | on query sets
+data = post.objects.filter(title = "title") & post.objects.filter(content = "content")   # AND
+
+# applying &, | on query set using Q object
+from django.db.models import Q
+data = post.objects.filter(Q(title = "title") | Q(content = "content")) #OR
+data = post.objects.filter(~Q(title = "title")) # NOT  looks like exclude
+
+
+# limiting queryset
+data = post.objects.all()[1:5] # return 2, 3, 4, 5
+
+# Field lookups
+data = post.objects.filter(age__gte=18)
+						   name__istartswith='s' # i for incase sensitivity
+						   id__exact=14
+						   title__contains="lem"
+						   id__lt=14
+						   id__lte=4
+						   id__in=[1,3,8]
+
+# update record
+# one element
+data = post.objects.get(id=1)
+data.title = "not title"
+data.save()
+# many elements
+post.objects.filter(age__gte=18).update(title="not title")  # update works on querysets only
+
+
+# delete a record
+post.objects.get(id=1).delete()
+
+#show the queries made aagainst the database
+#needs the DEBUG option to be true in the setting.py file
+from django.db import connection
+connection.queries
+
+# Aggregations (apply some function in the db)
+from django.db.models import Avg, Sum, Max, Min
+post.objects.aggregate(average = Avg('age')) # returns key: value default key attr__func:vlaue
+											#average =  to override the default value of the key
+
+# Test the existance of a record
+# On views
+from django.shortcuts import get_object_or_404
+def port(request, id):
+	post = get_object_or_404(poet, id)
+	return 
+
+```
+
+##### Manipulate the admin panel
+
+###### Create a super user
+`manage.py createsuperuser`
+
+###### Register a model
+- in admin.py write
+```python
+from .models import post
+
+admin.site.register(post)
+#or
+@admin.register(post)
+class PostAdmin(admin.ModelAdmin):
+	# fields you want to manipulate in the panel
+	list_display = ['id', 'title','age']  # fields showed in panel
+	list_display_links = ['id', 'title']  # fields made as link, list_display is must
+	list_filter = ['id', 'title']   # create filter for db
+	search_fields = ['id', 'title'] # add search bar
+
+```
+
+
+###### show database by a field in the admin panel
+```python
+# in the models.py
+class post(models.Model):
+	filed1
+	field2 
+	field3
+	def __str__(self):
+		return self.name
+```
+
+###### change the panel header 
+```python 
+# int the urls.pyh 
+admin.site.site_header = "blog"
+admin.site.index_title = "blogs"
+```
