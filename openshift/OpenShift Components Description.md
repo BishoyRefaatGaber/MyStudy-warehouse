@@ -4,7 +4,7 @@
 
 **Networking Components**:: 
 
-**Cluster Server Operators (CVO)**:: manage specific areas of cluster functionality, the lifecycle of cluster Operators which are installed in OpenShift Container Platform by default, and check the OpenShift Update Service to see the valid updates and update paths based on current component versions and information in the graph.
+**Cluster Version Operators (CVO)**:: manage specific areas of cluster functionality, the lifecycle of cluster Operators which are installed in OpenShift Container Platform by default, and check the OpenShift Update Service to see the valid updates and update paths based on current component versions and information in the graph.
 
 **OpenShift API server**:: The OpenShift API server validates and configures the data for OpenShift resources, such as projects, routes, and templates. OpenShift API server is managed by the OpenShift API Server Operator.
 
@@ -18,6 +18,8 @@
 
 **OpenShift OAuth server**:: Users request tokens from the OpenShift OAuth server to authenticate themselves to the API. The OpenShift OAuth server is managed by the Cluster Authentication Operator.
 
- **Operator Lifecycle Manager**:: Helps manage Kubernetes-native applications as Operators. Together they provide the system for discovering, installing, and managing the optional add-on Operators available on the cluster.
+ **Operator Lifecycle Manager (OLM)**:: Helps manage Kubernetes-native applications as Operators. Together they provide the system for discovering, installing, and managing the optional add-on Operators available on the cluster.
  
 **machine management**:: used for flexibly working with underlying infrastructure such as Amazon Web Services (AWS) ...etc
+
+
