@@ -11,17 +11,14 @@
             "id": "c08688836258d8eb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "openshift/Notes.canvas",
-                "viewState": {
-                  "x": -551.974418604651,
-                  "y": 477.9366486710961,
-                  "zoom": -0.23031333411253646
-                }
+                "file": "openshift/Command Hub.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Notes"
+              "icon": "lucide-file",
+              "title": "Command Hub"
             }
           }
         ]
@@ -95,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1384998b5aa03889",
@@ -188,8 +186,11 @@
   },
   "active": "c08688836258d8eb",
   "lastOpenFiles": [
-    "openshift/OpenShift Components Description.md",
+    "DevOps/Kubernates/Description.md",
+    "DevOps/Kubernates/Commands.md",
     "openshift/Notes.canvas",
+    "Django/django.md",
+    "openshift/OpenShift Components Description.md",
     "openshift/Command Hub.md",
     "DevOps/Kubernates/CKA.canvas",
     "DevOps/Vsphere/6. Managing VMs.md",
@@ -230,8 +231,6 @@
     "DevOps/Jenkins/Groovy.md",
     "DevOps/Jenkins/Jenkins.canvas",
     "DevOps/GitHub-Actions/Exampro Notes.md",
-    "DevOps/GitHub-Actions/Enterprise GitHub Actions.md",
-    "DevOps/AWS/CLF-02/EC2 (Elastic Compute Cloud).md",
     "Database",
     "DevOps/argoCD",
     "DevOps/GitHub-Actions",
