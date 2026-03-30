@@ -64,7 +64,17 @@ options:
 
 ## see page 171
 
+# Managing resources
 
+
+
+
+
+# create a service 
+oc expose deployment/<deplyment name> [--selector ] [--port ][--target-port ][--protocol ][--name ]
+
+# create route 
+oc expose service <service name> --hostname <hostname> # if --hostname omited openshift create a hostname like <route name>-<project name>.<defult domain>
 
  ``` 
  
