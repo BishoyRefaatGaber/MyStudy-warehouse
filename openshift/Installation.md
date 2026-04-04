@@ -11,4 +11,4 @@
 - [Required machines for cluster installation](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-machine-requirements_installing-restricted-networks-bare-metal) 
 - [Minimum resource requirements for cluster installation](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-minimum-resource-requirements_installing-restricted-networks-bare-metal) 
 - [Networking requirements for user-provisioned infrastructure](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-network-user-infra_installing-restricted-networks-bare-metal) 
-- 
+

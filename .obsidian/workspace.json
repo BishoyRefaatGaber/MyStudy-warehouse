@@ -11,14 +11,17 @@
             "id": "c08688836258d8eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "openshift/Installation.md",
-                "mode": "source",
-                "source": false
+                "file": "DevOps/Kubernates/CKA.canvas",
+                "viewState": {
+                  "x": 2228.611372358532,
+                  "y": 7534.062480462464,
+                  "zoom": -1.666666666666666
+                }
               },
-              "icon": "lucide-file",
-              "title": "Installation"
+              "icon": "lucide-layout-dashboard",
+              "title": "CKA"
             }
           }
         ]
@@ -185,12 +188,14 @@
   },
   "active": "c08688836258d8eb",
   "lastOpenFiles": [
-    "DevOps/Kubernates/Description.md",
-    "openshift/Installation.md",
     "openshift/Notes.canvas",
-    "DevOps/Kubernates/CKA.canvas",
-    "openshift/OpenShift Components Description.md",
     "openshift/Command Hub.md",
+    "DevOps/Kubernates/CKA.canvas",
+    "openshift/Installation.md",
+    "DNS/Notes.md",
+    "DNS",
+    "DevOps/Kubernates/Description.md",
+    "openshift/OpenShift Components Description.md",
     "DevOps/Kubernates/Commands.md",
     "Django/django.md",
     "DevOps/Vsphere/6. Managing VMs.md",
@@ -226,7 +231,6 @@
     "DevOps/Vsphere/z00.png",
     "Veeam/veeam.canvas",
     "Veeam/Terminology.md",
-    "CCNA/CCNA-notes.md",
     "Veeam",
     "DevOps/Jenkins/Jenkins.canvas",
     "Database",
@@ -236,7 +240,6 @@
     "DevOps/gitCanvasObsidian.png",
     "Web Development",
     "python",
-    "DSA",
     "DevOps/Vsphere/z.png",
     "DevOps/Vsphere/z02.png",
     "DevOps/Vsphere/z01.png"
