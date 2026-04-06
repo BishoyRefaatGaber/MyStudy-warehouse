@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DevOps/Kubernates/CKA.canvas",
+                "file": "openshift/Notes.canvas",
                 "viewState": {
-                  "x": 2228.611372358532,
-                  "y": 7534.062480462464,
-                  "zoom": -1.666666666666666
+                  "x": 1462.1351744186045,
+                  "y": -273.54071065199344,
+                  "zoom": -0.9009072306148429
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "CKA"
+              "title": "Notes"
             }
           }
         ]
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "RollingUpdate",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,9 +188,9 @@
   },
   "active": "c08688836258d8eb",
   "lastOpenFiles": [
-    "openshift/Notes.canvas",
     "openshift/Command Hub.md",
     "DevOps/Kubernates/CKA.canvas",
+    "openshift/Notes.canvas",
     "openshift/Installation.md",
     "DNS/Notes.md",
     "DNS",

@@ -118,6 +118,36 @@ oc set volumes RESOURCE/NAME --add|--remove [flags] [options]
 # view the storage classes that the cluster provides.
 oc get storageclass
 
+# use autoscaler
+  oc autoscale (-f FILENAME | TYPE NAME | TYPE/NAME) [--min=MINPODS] --max=MAXPODS [--cpu=CPU] [--memory=MEMORY]
+[options]
 
+# get autoscaler resources information
+# HorizontalPodAutoscaler (HPA)
+oc get hpa 
+
+# get information of some image
+oc image info IMAGE [...] [flags] [options]
+options: 
+ --filter-by-os=''  -> control which images are considered when multi-architecture image available.
+ 
+ 
+ 
+ # used in the node to get image info 
+ crictl imagefsinfo
+ 
+ 
+ # page 462
+ 
+ 
+ # rollout the updates on a deployment
+ oc rollout undo deployment/<deployment name>
+ oc rollback  # same as rollout exits in openshift
+ oc rollout cancel # cancel a rollout exists in openshift and works only with DeploymentConfig objects
+ oc rollout undo [--to revision rev] # rolls back to the preceding deployment version.
+ # --to revision rev -> revert to specific version
+ oc rollout history deployment/<dep name> 
+  
+ 
  ``` 
  
