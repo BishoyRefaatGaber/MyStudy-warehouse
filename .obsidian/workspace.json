@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "openshift/Notes.canvas",
+                "file": "DevOps/Kubernates/CKA.canvas",
                 "viewState": {
-                  "x": 1462.1351744186045,
-                  "y": -273.54071065199344,
-                  "zoom": -0.9009072306148429
+                  "x": -1263.3229453019464,
+                  "y": 1660.9859286227472,
+                  "zoom": -3.9899999999999998
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Notes"
+              "title": "CKA"
             }
           }
         ]
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1384998b5aa03889",

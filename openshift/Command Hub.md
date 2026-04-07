@@ -1,6 +1,7 @@
  ``` bash
 crc console --credentials
 crc console --url
+oc whoami --show-console
  
  
 oc login -u <username> -p <password> <cluster-url>
@@ -52,7 +53,14 @@ options:
 
 # collects resource definitions and service logs from the cluster
 # Important when opening a support case
-oc adm must-gather --dest-dir /home/student/must-gather
+# get data for the whole cluster
+# runs a pod to collect the data the destroy it
+oc adm must-gather --dest-dir <dir path> 
+# get data for a specific resource
+# cli builtin
+oc adm inspect <resource type>  <name>  --dest-dir <dir path> --since <time>
+
+
 # Then, create a compressed archive file from the must-gather directory.
 tar cvaf mustgather.tar must-gather/
 
@@ -98,13 +106,16 @@ oc status  # Display the status of the containers in the selected namespace.
 oc rsync # Synchronize files and directories to and from containers.
 oc rsh # Start a remote shell within a specified container.
 
+# scale the deployment
+oc scale 
+
 # create a service 
 oc expose deployment/<deplyment name> [--selector ] [--port ][--target-port ][--protocol ][--name ]
 
 # create route 
 oc expose service <service name> --hostname <hostname> # if --hostname omited openshift create a hostname like <route name>-<project name>.<defult domain>
 
-
+# page 268
 
 # Create secrets 
 oc create secret generic NAME [--type=string] [--from-file=[key=]source] [--from-literal=key1=value1] [--dry-run=server|client|none] [options]
