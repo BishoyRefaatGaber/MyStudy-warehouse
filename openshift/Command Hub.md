@@ -129,6 +129,9 @@ oc set volumes RESOURCE/NAME --add|--remove [flags] [options]
 # view the storage classes that the cluster provides.
 oc get storageclass
 
+# set probes 
+oc set probe RESOURCE/NAME --readiness|--liveness [flags] (--get-url=URL|--open-tcp=PORT|-- CMD) [options]
+
 # use autoscaler
   oc autoscale (-f FILENAME | TYPE NAME | TYPE/NAME) [--min=MINPODS] --max=MAXPODS [--cpu=CPU] [--memory=MEMORY]
 [options]

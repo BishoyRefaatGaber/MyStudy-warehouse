@@ -15,9 +15,9 @@
               "state": {
                 "file": "DevOps/Kubernates/CKA.canvas",
                 "viewState": {
-                  "x": -1263.3229453019464,
-                  "y": 1660.9859286227472,
-                  "zoom": -3.9899999999999998
+                  "x": 2435.482866569622,
+                  "y": 5322.060095312592,
+                  "zoom": -0.333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1384998b5aa03889",
