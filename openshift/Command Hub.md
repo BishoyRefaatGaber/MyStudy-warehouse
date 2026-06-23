@@ -9,6 +9,10 @@ oc login -u <username> -p <password> <cluster-url>
 # get the web console link
 oc whoami --show-console
 
+export KUBECONFIG=/etc/kubernetes/static-pod-resources/kube-apiserver-certs/secrets/node-kubeconfigs/lb-int.kubeconfig
+
+
+
 # create a project
 # Projects are Kubernetes namespaces with additional annotations that provide multitenancy scoping for applications.
 oc new-project <project-name>
@@ -163,5 +167,42 @@ options:
  oc rollout history deployment/<dep name> 
   
  
- ``` 
  
+ oc adm drain <node-name> --ignore-daemonsets
+ oc adm uncordon <node-name>
+
+ 
+ ``` 
+
+
+
+
+
+``` bash
+ # YAML Validation
+ --dry-run=server|client     --validate=true
+
+ # Comparing Resources
+ # review differences between live objects and manifests.
+ kubectl diff -f example-deployment.yaml
+
+# Update Considerations
+# if an updated manifest changes only values in secret or a configuration map, then applying the updated manifest does not generate new pods that use those values. Because pods read secret and configuration maps at startup
+
+oc rollout restart deployment deployment-name # to restart pods
+
+
+# kubectl apply command compares three sources to determine how to process the request and to apply changes.
+#	1. The manifest file
+#	2. The live configuration of the resource in the cluster
+#	3. The configuration that is stored in the last-applied-configuration annotation
+
+
+
+kubectl apply -k overlay/production # apply customize file
+oc delete -k overlay/production  # delete resource using kustomize
+
+
+
+
+```

@@ -11,17 +11,14 @@
             "id": "c08688836258d8eb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DevOps/Kubernates/CKA.canvas",
-                "viewState": {
-                  "x": 2435.482866569622,
-                  "y": 5322.060095312592,
-                  "zoom": -0.333333333333333
-                }
+                "file": "openshift/6. Enable Developer Self-Service.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "CKA"
+              "icon": "lucide-file",
+              "title": "6. Enable Developer Self-Service"
             }
           }
         ]
@@ -188,14 +185,25 @@
   },
   "active": "c08688836258d8eb",
   "lastOpenFiles": [
+    "openshift/3. Authentication and  Authorization.md",
+    "openshift/6. Enable Developer Self-Service.md",
     "openshift/Command Hub.md",
-    "DevOps/Kubernates/CKA.canvas",
     "openshift/Notes.canvas",
+    "SSL/SSl-TLS.md",
+    "openshift/Notes.md",
+    "SSL",
+    "openshift/OpenShift Components Description.md",
+    "Nexus/Architecture and Work flow.md",
+    "Nexus/Installation.md",
+    "gitlab/archeticture and work flow.md",
+    "Nexus",
+    "gitlab/installation.md",
+    "DevOps/Kubernates/CKA.canvas",
+    "gitlab",
     "openshift/Installation.md",
     "DNS/Notes.md",
     "DNS",
     "DevOps/Kubernates/Description.md",
-    "openshift/OpenShift Components Description.md",
     "DevOps/Kubernates/Commands.md",
     "Django/django.md",
     "DevOps/Vsphere/6. Managing VMs.md",
@@ -216,30 +224,20 @@
     "DevOps/AWS/Screenshot from 2025-03-11 17-45-10.png",
     "DevOps/AWS/CLF-02/What is cloud computing ?.md",
     "DevOps/AWS/CLF-02/IAM (Identity and Access Management).md",
-    "DevOps/AWS/CLF-02/EBS (Elastic Block Storage).md",
-    "DevOps/AWS/CLF-02/AWS Design Principals.md",
     "DevOps/AWS/SAA-C03/Untitled 1.canvas",
     "DevOps/AWS/SAA-C03/Untitled.canvas",
     "DevOps/AWS/Untitled.canvas",
     "DevOps/AWS/URL.png",
-    "DevOps/Vsphere/7. vSphere Clusters.md",
-    "DevOps/Vsphere/5. Deploying VMs.md",
     "DevOps/Vsphere/vsphere.canvas",
-    "DevOps/Vsphere/Roles and Permissions.md",
-    "CCNA/Configurations.md",
     "DevOps/Vsphere/z0.png",
     "DevOps/Vsphere/z00.png",
     "Veeam/veeam.canvas",
-    "Veeam/Terminology.md",
     "Veeam",
     "DevOps/Jenkins/Jenkins.canvas",
     "Database",
     "DevOps/argoCD",
-    "DevOps/GitHub-Actions",
     "Pasted image 20250714121027.png",
     "DevOps/gitCanvasObsidian.png",
-    "Web Development",
-    "python",
     "DevOps/Vsphere/z.png",
     "DevOps/Vsphere/z02.png",
     "DevOps/Vsphere/z01.png"
