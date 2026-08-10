@@ -109,7 +109,7 @@ oc logs # Retrieve the logs for a specified container.
 oc status  # Display the status of the containers in the selected namespace.
 oc rsync # Synchronize files and directories to and from containers.
 oc rsh # Start a remote shell within a specified container.
-
+oc get event --sort-by .metadata.creationTimestamp
 # scale the deployment
 oc scale 
 
@@ -202,7 +202,31 @@ oc rollout restart deployment deployment-name # to restart pods
 kubectl apply -k overlay/production # apply customize file
 oc delete -k overlay/production  # delete resource using kustomize
 
+# Create a resource quota
+oc create resourcequota example --hard=count/pods=1
 
+# Create Cluster Resource Quota
+oc create clusterresourcequota example
+--project-label-selector=group=dev --hard=requests.cpu=10
+# view the cluster resource quotas that apply to a specific namespace
+oc describe AppliedClusterResourceQuota -n example-2
 
+# prints a template to be used to create your own project template.
+oc adm create-bootstrap-project-template -o yaml > file
+
+# Securing Applications with Edge Routes
+#If the --key and --cert options are omitted, then the RHOCP ingress operator provides a certificate from the internal Certificate Authority (CA).
+oc create route edge \
+--service api-frontend --hostname api.apps.acme.com \
+--key api.key --cert api.crt
+
+# View the certificate that the internal CA provides.
+oc get secrets/router-ca -n openshift-ingressoperator -o yaml
+
+# Securing Applications with Passthrough Routes
+# using OpenShift TLS secrets. Secrets are exposed via a mount point into the container.
+oc create route passthrough todo-https \
+--service todo-https --port 8443 \
+--hostname todo-https.apps.ocp4.example.com
 
 ```
